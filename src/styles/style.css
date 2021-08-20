@@ -1,0 +1,20 @@
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 8px auto;
+}
+@media screen and (max-width: 400px){
+    search-bar > div > form {
+        flex-direction: column;
+        position: static;
+    }
+
+    search-bar > div > form > input {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    search-bar > div > form > button {
+        width: 100%;
+    }
+}
